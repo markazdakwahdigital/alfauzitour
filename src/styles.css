@@ -13,3 +13,12 @@
 .role-icon svg{filter:drop-shadow(0 2px 2px #003f3566)}
 .role b{text-shadow:0 1px 0 #fff,0 2px 4px #006b5525}
 @media(max-width:560px){.official-logo{width:min(390px,92%);max-height:175px}.brand{margin-top:28px;margin-bottom:16px}.role{min-height:145px}}
+
+/* Logo integration: remove sticker-like white plate */
+.official-logo{
+  background:transparent!important;
+  mix-blend-mode:multiply;
+  filter:drop-shadow(0 7px 9px #006c5520)!important;
+  border:0!important;
+  box-shadow:none!important;
+}
