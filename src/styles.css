@@ -22,3 +22,14 @@
   border:0!important;
   box-shadow:none!important;
 }
+
+/* Logo seamless integration v2 */
+.official-logo{
+  background:transparent!important;
+  border:0!important;
+  box-shadow:none!important;
+  filter:none!important;
+  mix-blend-mode:multiply!important;
+  isolation:auto!important;
+}
+.brand{background:transparent!important;box-shadow:none!important}
